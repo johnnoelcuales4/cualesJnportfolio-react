@@ -1,0 +1,174 @@
+.container1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(249, 33%, 96%, 0.795), rgba(44, 100, 240, 0.694)),url("../img/cross1.jpeg")no-repeat;
+    background-size: cover;
+    padding-top: 0;
+    background-attachment: fixed;
+}
+#banner .text {
+    color: #060606;
+}
+#banner img {
+    width: 100%;
+    filter: drop-shadow(30px 2px 15px rgba(216, 240, 3, 0.142));
+}
+#banner .ok {
+    margin-top: 120px;
+}
+#banner .self {
+    font-size: 30px;
+    font-weight: 5;
+    font-style: italic;
+}
+#banner .card {
+    background: transparent;
+    border: 0;
+}
+.btn {
+    transition: all 0.4s ease;
+    border-radius: 3;
+}
+#banner .card .btn-brand {
+    color: #05010f;
+   background-color: #0b5deb94;
+}
+#banner .card .btn-brand:hover {
+    color: #05000c;
+    background-color: rgb(69, 8, 236);
+    font-weight: 800;
+}
+#info .btn-brand {
+    color: #102ff7;
+    background: rgb(3, 231, 94);
+}
+#info .btn-brand:hover {
+    color: #3f0beb;
+    background-color: rgb(16, 85, 235);
+    font-weight: 800;
+}
+.footer_section {
+    background-color: #222831;
+    color: #ffffff;
+    text-align: center;
+}
+.footer_section .footer-info {
+    text-align: center;
+}
+.footer_section .footer-info p {
+    color: #ffffff;
+    margin: 0;
+}
+.footer_section .footer-info p a {
+    color: inherit;
+    text-decoration: none;
+}
+#info {
+    background: #fff;
+    background-size: cover;
+    margin-top: 100px
+}
+#info .card{
+    background: linear-gradient(to right, hsla(249, 33%, 96%, 0.795), rgba(44, 100, 240, 0.694)); 
+  background-size: cover;
+}
+#info img {
+    width: 150px;
+    align-self: center;
+    margin-bottom: 20px;
+    filter: drop-shadow(15px 8px 2px rgba(0, 0, 0, 0.374));
+}
+#fav{
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(249, 33%, 96%, 0.795), rgba(44, 100, 240, 0.694)), url("../img/cross1.jpeg")no-repeat; 
+    padding-top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#fav .card {
+  background: linear-gradient(to right, hsla(218, 73%, 72%, 0.804), rgba(47, 86, 218, 0.9)); 
+    margin-bottom: 20px;   
+}
+#fav h4 {
+    color: rgb(7, 7, 7);
+}
+#fav h3{
+    color: #102ff7;
+}
+#fav img {
+    width: 150px;
+    align-self: center;
+    transition: .5s ease-out;
+    border-radius: 20px;
+}
+#fav img:hover {
+    width: 320px;
+    align-self: center;
+    transition: .5s;
+}
+.sea-waves {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background: linear-gradient(to right, hsl(258, 81%, 52%), rgb(252, 252, 252));
+  } 
+  .sea-wave1 use {
+    -webkit-animation: move-forever1 10s linear infinite;
+    animation: move-forever1 10s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  .sea-wave2 use {
+    -webkit-animation: move-forever2 8s linear infinite;
+    animation: move-forever2 8s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  .sea-wave3 use {
+    -webkit-animation: move-forever3 6s linear infinite;
+    animation: move-forever3 6s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  .radio-waves {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background: linear-gradient(to right, hsl(258, 81%, 52%), rgb(252, 252, 252));
+  }
+  .radio-wave1 use {
+    -webkit-animation: move-forever1 10s linear infinite;
+    animation: move-forever1 10s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s; 
+  }
+  .radio-wave2 use {
+    -webkit-animation: move-forever2 8s linear infinite;
+    animation: move-forever2 8s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s; 
+  }
+  .radio-wave3 use {
+    -webkit-animation: move-forever3 6s linear infinite;
+    animation: move-forever3 6s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+   #info{
+      background: linear-gradient(to right, hsl(258, 81%, 52%), rgb(252, 252, 252));
+      margin-top: 0%;
+      margin-bottom: 0%;
+   }
+  #footer{
+    background: linear-gradient(to right, hsl(258, 81%, 52%), rgb(252, 252, 252)); 
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique; 
+  }

@@ -1,0 +1,143 @@
+
+#about {
+    width: 50px;
+    border-radius: 10px;
+}
+#About{
+  background: linear-gradient(to right, hsl(258, 98%, 47%), rgb(252, 252, 252));
+}
+#about-info {
+    min-height: 50vh;
+}
+
+#about #background {
+    
+    padding: 100px;
+}
+#carton .card{
+  margin-top: 10px;
+  background: linear-gradient(to right, hsla(249, 33%, 96%, 0.795), rgba(44, 100, 240, 0.694));
+  background-size: cover;
+}
+#info{
+  background: linear-gradient(to right, hsla(249, 33%, 96%, 0.795), rgba(44, 100, 240, 0.694)), url("../img/cross1.jpeg")no-repeat; 
+background-size: cover;
+background-attachment: fixed;
+}
+#info h4{
+  color: #000;
+}
+#carton .box {
+    margin-top: -25px;
+    width: 300px;
+}
+#carton .text {
+  text-align: justify;
+  font-size: 20px;
+}
+#carton img {
+    width: 400px;
+    border-radius: 10px;
+}
+#carton .icons {
+    font-size: 20px;
+}
+.footer_section .footer-info {
+    text-align: center;
+}
+.footer_section .footer-info p {
+    color: #ffffff;
+    margin: 0;
+}
+.footer_section .footer-info p a {
+    color: inherit;
+    text-decoration: none;
+}
+.container2 {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+  .air-waves {
+    display: block;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    background: linear-gradient(to right, hsl(258, 98%, 47%), rgb(252, 252, 252));
+  }
+  .wave1 use {
+    -webkit-animation: move-forever1 10s linear infinite;
+    animation: move-forever1 10s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  .wave2 use {
+    -webkit-animation: move-forever2 8s linear infinite;
+    animation: move-forever2 8s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+  .wave3 use {
+    -webkit-animation: move-forever3 6s linear infinite;
+    animation: move-forever3 6s linear infinite;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+  }
+#skill {
+  margin-top: 10px;
+  background: linear-gradient(to right, hsl(258, 98%, 47%), rgb(252, 252, 252));
+}
+.skills {
+  padding-top: 120px;
+}
+.skill {
+  width: 500px;
+  margin: 60px auto;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(4, 132, 251, 0.25), 0 10px 10px rgba(0,0,0,0.27);
+}
+#photos3 .container {
+  background: linear-gradient(to right, hsl(258, 98%, 47%), rgb(252, 252, 252));
+}
+#photos3 .container .card {
+  background: linear-gradient(to right, hsla(249, 33%, 96%, 0.795), rgba(44, 100, 240, 0.694)); 
+}
+#photos3 h3 {
+  color: rgb(255,255,255);
+  margin-left: 20%;
+  border-radius: 20px;
+}
+#photos3 img {
+  width: 140px;
+  align-self: center;
+  transition: .5s ease-out;
+  border-radius: 15px;
+}
+#photos3 img:hover {
+  width: 850px;
+  align-self: center;
+  transition: .5s;
+}
+#photos4 .container {
+  background: linear-gradient(to right, hsl(258, 98%, 47%), rgb(252, 252, 252));
+}
+#photos4 .container .card {
+  background: linear-gradient(to right, hsla(249, 33%, 96%, 0.795), rgba(44, 100, 240, 0.694)); 
+}
+#photos4 h3 {
+  color: rgb(255,255,255);
+  margin-left: 20%;
+  border-radius: 20px;
+}
+#photos4 img {
+  width: 140px;
+  align-self: center;
+  transition: .5s ease-out;
+  border-radius: 15px;
+}
+#photos4 img:hover {
+  width: 350px;
+  align-self: center;
+  transition: .5s;
+}
